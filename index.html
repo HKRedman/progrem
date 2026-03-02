@@ -3,15 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Improved Mobile Viewport</title>
+    <title>Cyberpunk Design</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        html {
-            scroll-behavior: smooth;
+        body {
+            background-color: #0f0f0f;
+            color: #00ffcc;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 0 20px #00ffcc;
+        }
+        main { 
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            text-shadow: 2px 2px 10px #00ff99;
+        }
+        a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+        .neon-button {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #00ffcc;
+            border-radius: 5px;
+            background: transparent;
+            transition: background 0.3s, color 0.3s;
+        }
+        .neon-button:hover {
+            background: #00ffcc;
+            color: #0f0f0f;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is an improved index.html file with mobile viewport configuration and smooth scrolling functionality.</p>
+    <header>
+        <h1>Welcome to My Cyberpunk Site</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>This is a modern cyberpunk themed webpage, exploring futuristic design with neon aesthetics.</p>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>Feel free to reach out via <a href="mailto:contact@example.com">email</a>.</p>
+            <button class="neon-button">Get in Touch</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 HKRedman</p>
+    </footer>
 </body>
 </html>
