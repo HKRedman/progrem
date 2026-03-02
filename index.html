@@ -3,63 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyberpunk Design</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Smooth Cyber Futuristic Design</title>
     <style>
         body {
-            background-color: #0f0f0f;
-            color: #00ffcc;
-            font-family: 'Courier New', Courier, monospace;
             margin: 0;
-            padding: 0;
-        }
-        header, footer {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             text-align: center;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            box-shadow: 0 0 20px #00ffcc;
         }
-        main { 
-            padding: 20px;
+        h1 {
+            font-size: 48px;
+            margin: 0;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
         }
-        h1, h2, h3 {
-            text-shadow: 2px 2px 10px #00ff99;
+        p {
+            font-size: 24px;
+            margin: 10px 0;
         }
-        a {
-            color: #00ffff;
-            text-decoration: none;
-        }
-        .neon-button {
-            display: inline-block;
+        .button {
             padding: 10px 20px;
-            border: 2px solid #00ffcc;
+            background-color: #00c6ff;
+            border: none;
             border-radius: 5px;
-            background: transparent;
-            transition: background 0.3s, color 0.3s;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
-        .neon-button:hover {
-            background: #00ffcc;
-            color: #0f0f0f;
+        .button:hover {
+            background-color: #0072ff;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Cyberpunk Site</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a modern cyberpunk themed webpage, exploring futuristic design with neon aesthetics.</p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>Feel free to reach out via <a href="mailto:contact@example.com">email</a>.</p>
-            <button class="neon-button">Get in Touch</button>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 HKRedman</p>
-    </footer>
+    <div>
+        <h1>Welcome to the Futuristic World</h1>
+        <p>Your journey into the future begins here.</p>
+        <button class="button">Explore</button>
+    </div>
 </body>
 </html>
